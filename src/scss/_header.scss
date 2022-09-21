@@ -1,0 +1,15 @@
+.header {
+	padding: 50px 0;
+	background-color: #3d3d3d;
+	border-top: 2px solid #db594d;
+	border-bottom: 2px solid #db594d;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__right {
+		display: flex;
+		gap: 50px;
+	}
+}
