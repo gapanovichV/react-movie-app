@@ -1,15 +1,38 @@
 .header {
-	padding: 50px 0;
-	background-color: #3d3d3d;
-	border-top: 2px solid #db594d;
-	border-bottom: 2px solid #db594d;
+	padding: 25px 0;
+	background-color: $primery;
+	border-top: 2px solid $secondary;
+	border-bottom: 3px solid $secondary;
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
+	&__logo {
+		color: #fff;
+		&-box {
+			margin-right: 10px;
+			color: inherit;
+			padding: 5px;
+			background-color: $secondary;
+			border-radius: 10px;
+		}
+	}
 	&__right {
 		display: flex;
 		gap: 50px;
+		align-items: center;
+	}
+	&__search {
+		padding: 10px;
+		border-radius: 25px;
+		background-color: #555555;
+		color: #fff;
+		&::placeholder {
+			color: #838383;
+		}
+	}
+	&__logo {
+		border-radius: 100%;
 	}
 }

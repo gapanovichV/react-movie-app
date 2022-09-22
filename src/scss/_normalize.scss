@@ -43,6 +43,16 @@ h2 {
 a {
 	text-decoration: none;
 }
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+input {
+	outline: none;
+	border: none;
+}
 
 @mixin noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
