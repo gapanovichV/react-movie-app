@@ -10,12 +10,14 @@
 	}
 	&__logo {
 		color: #fff;
+		font-weight: 700;
+		font-size: 25px;
 		&-box {
 			margin-right: 10px;
 			color: inherit;
 			padding: 5px;
 			background-color: $secondary;
-			border-radius: 10px;
+			border-radius: 20px;
 		}
 	}
 	&__right {

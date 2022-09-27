@@ -6,74 +6,34 @@ const Main = () => {
 		<div className="main">
 			<div className="container">
 				<div className="movie">
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">1Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
+					<a href="/" className="movie-link">
+						<div className="card">
+							<img src={poster} height="270" alt="Постер" />
+							<div className="card__text">
+								<p className="card__text-title">Огонь</p>
+								<p className="card__text-year">2022</p>
+								<p className="card__text-genre">Боевик</p>
+								<p className="card__text-descr">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis velit
+									mollitia numquam dolorem, at odit aliquam officiis inventore eius alias ducimus
+									ipsam aperiam repudiandae qui adipisci sapiente tempore incidunt soluta!
+								</p>
+							</div>
 						</div>
 					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">2Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">3Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">4Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">5Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">6Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">7Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">8Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">9Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
-						</div>
-					</a>
-					<a href="/" className="card">
-						<img src={poster} height="358" alt="Постер" />
-						<div className="card__text">
-							<div className="card__text-title">9Огонь</div>
-							<div className="card__text-subtitle">2022, HDRip</div>
+					<a href="/" className="movie-link">
+						<div className="card">
+							<img src={poster} height="270" alt="Постер" />
+							<div className="card__text">
+								<p className="card__text-title">Огонь</p>
+								<p className="card__text-year">2022</p>
+								<p className="card__text-genre">Боевик</p>
+								<p className="card__text-descr">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis velit
+									mollitia numquam dolorem, at odit aliquam officiis inventore eius alias ducimus
+									ipsam aperiam repudiandae qui adipisci sapiente tempore incidunt soluta!
+								</p>
+							</div>
 						</div>
 					</a>
 				</div>
